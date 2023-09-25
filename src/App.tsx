@@ -8,6 +8,9 @@ function App() {
         <Col span={2}>
           <SideNav />
         </Col>
+        <Col span={22}>
+          <BreadcrumbItem />
+        </Col>
       </Row>
     </main>
   );
