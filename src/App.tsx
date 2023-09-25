@@ -1,8 +1,15 @@
+import { Col, Row } from 'antd';
+import SideNav from './components/SideNav';
+
 function App() {
   return (
-    <>
-      <h1>initial</h1>
-    </>
+    <main>
+      <Row>
+        <Col span={2}>
+          <SideNav />
+        </Col>
+      </Row>
+    </main>
   );
 }
 
