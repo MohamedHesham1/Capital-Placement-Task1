@@ -2,7 +2,7 @@ import { CloseOutlined, PlusOutlined } from '@ant-design/icons';
 import { Button, Form, Input, Select, Space } from 'antd';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import Accordion from './Accordion';
+// import Accordion from './Accordion';
 
 const FormList = () => {
   const formId = uuidv4();
@@ -17,11 +17,11 @@ const FormList = () => {
     setQuestionTitle(event.target.value);
   };
 
-  const paragraphQuestion = (
-    <Accordion questionType={questionType} questionTitle={questionTitle}>
-      <div>test</div>
-    </Accordion>
-  );
+  // const paragraphQuestion = (
+  //   <Accordion questionType={questionType} questionTitle={questionTitle}>
+  //     <div>test</div>
+  //   </Accordion>
+  // );
 
   return (
     <>
