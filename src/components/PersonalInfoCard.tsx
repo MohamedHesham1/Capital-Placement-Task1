@@ -1,6 +1,6 @@
 import { Checkbox, Divider, Form, Switch } from 'antd';
 import CardItem from './CardItem';
-
+import FormList from './FormList';
 const PersonalInfoCard = () => {
   return (
     <CardItem title='Personal Information' padding={'38px 48px 52px 30px'}>
@@ -61,7 +61,7 @@ const PersonalInfoCard = () => {
             >
               <Switch />
             </Form.Item>
-            <span>Hide</span>
+            <span style={{ marginTop: 5 }}>Hide</span>
           </div>
         </div>
       </Form.Item>
@@ -84,7 +84,7 @@ const PersonalInfoCard = () => {
             >
               <Switch />
             </Form.Item>
-            <span>Hide</span>
+            <span style={{ marginTop: 5 }}>Hide</span>
           </div>
         </div>
       </Form.Item>
@@ -107,7 +107,7 @@ const PersonalInfoCard = () => {
             >
               <Switch />
             </Form.Item>
-            <span>Hide</span>
+            <span style={{ marginTop: 5 }}>Hide</span>
           </div>
         </div>
       </Form.Item>
@@ -130,7 +130,7 @@ const PersonalInfoCard = () => {
             >
               <Switch />
             </Form.Item>
-            <span>Hide</span>
+            <span style={{ marginTop: 5 }}>Hide</span>
           </div>
         </div>
       </Form.Item>
@@ -153,7 +153,7 @@ const PersonalInfoCard = () => {
             >
               <Switch />
             </Form.Item>
-            <span>Hide</span>
+            <span style={{ marginTop: 5 }}>Hide</span>
           </div>
         </div>
       </Form.Item>
@@ -176,11 +176,12 @@ const PersonalInfoCard = () => {
             >
               <Switch />
             </Form.Item>
-            <span>Hide</span>
+            <span style={{ marginTop: 5 }}>Hide</span>
           </div>
         </div>
       </Form.Item>
-      <Divider style={{ borderWidth: 2 }} />
+
+      <FormList />
     </CardItem>
   );
 };

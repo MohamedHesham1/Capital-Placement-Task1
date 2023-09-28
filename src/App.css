@@ -1,0 +1,28 @@
+.ant-form-item-label > label {
+  font-size: 20px !important;
+  font-weight: 600;
+}
+.ant-card-head-title {
+  font-size: inherit !important;
+}
+.ant-upload ant-upload-select {
+  display: block !important;
+}
+.ant-upload {
+  width: auto !important;
+  height: auto !important;
+  background: none !important;
+  border: none !important;
+}
+.ant-upload-list-item-container {
+  width: 100% !important;
+  height: calc(100% - 56px) !important;
+}
+.ant-upload-list-item-image {
+  object-fit: cover !important;
+}
+.ant-layout-sider {
+  width: 117px !important;
+  min-width: 117px !important;
+  max-width: 117px !important;
+}
