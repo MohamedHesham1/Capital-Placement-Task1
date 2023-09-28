@@ -1,6 +1,8 @@
 import { Col, Row } from 'antd';
+import './App.css';
+import BreadcrumbItem from './components/BreadcrumbItem';
+import ParentForm from './components/ParentForm';
 import SideNav from './components/SideNav';
-
 function App() {
   return (
     <main>
@@ -10,6 +12,7 @@ function App() {
         </Col>
         <Col span={22}>
           <BreadcrumbItem />
+          <ParentForm />
         </Col>
       </Row>
     </main>
