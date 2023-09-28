@@ -1,6 +1,7 @@
 import { Button, Form } from 'antd';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import PersonalInfoCard from './PersonalInfoCard';
 const ParentForm = () => {
   const [form] = Form.useForm();
   const [formValues, setFormValues] = useState({});
@@ -28,6 +29,8 @@ const ParentForm = () => {
         style={{ maxWidth: 517 }}
         colon={false}
       >
+        <PersonalInfoCard />
+
         <Form.Item>
           <Button type='primary' htmlType='submit'>
             Submit
